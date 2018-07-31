@@ -1,0 +1,41 @@
+.bw {
+  word-wrap: break-word !important;
+  font-size: 0.95vw;
+}
+.mzpz {
+  margin: 0px;
+  padding: 0px;
+}
+.zp {
+  padding: 0px;
+  word-wrap: break-word !important;
+}
+.imgcol {
+  margin-top: 2.6%;
+}
+@media only screen and (max-width: 1265px) {
+  .bw {
+    font-size: 0.9vw;
+  }
+  .imgcol {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .bw {
+    font-size: 1.1vw;
+  }
+  .imgcol {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .bw {
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .bw {
+    font-size: 1.7vw;
+  }
+}

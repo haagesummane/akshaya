@@ -7,7 +7,7 @@ class Home extends Component {
   render() {
     return (
       <AppBody active={this.props.active}>
-        <div style={{ width: '80%', textAlign: 'center' }}>
+        <div style={{ width: '80%', height: '100%', textAlign: 'center' }}>
           <h1>Welcome</h1>
           <article style={{ textAlign: 'justify' }}>
             <p>
@@ -17,6 +17,17 @@ class Home extends Component {
               and many commercial and cooperative banks.
             </p>
           </article>
+        </div>
+        <div className="container-fluid homeservices">
+          <div className="row rd">
+            <div className="col-1">&nbsp;</div>
+            <div className="col-2 serv_box">serv1</div>
+            <div className="col-2 serv_box gray_box">serv2</div>
+            <div className="col-2 serv_box">serv3</div>
+            <div className="col-2 serv_box gray_box">serv4</div>
+            <div className="col-2 serv_box">serv5</div>
+            <div className="col-1">&nbsp;</div>
+          </div>
         </div>
       </AppBody>
     );

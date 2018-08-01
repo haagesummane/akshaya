@@ -16,7 +16,7 @@ class Nav extends Component {
     if (typeof this.props.active === 'number') ln_classes[this.props.active] = ' active';
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand" href="/">
             <img src={logo} width="70" alt="Akshaya Agro Services" />
             Akshaya Agro Services

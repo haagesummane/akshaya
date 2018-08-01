@@ -1,9 +1,9 @@
-import h_img01 from 'images/Home/01-Mango.jpg';
-import h_img02 from 'images/Home/02-Sapota.jpg';
-import h_img03 from 'images/Home/03-Guava.jpg';
-import h_img04 from 'images/Home/04-Coconut.jpg';
-import h_img05 from 'images/Home/05-Water-Apple.jpg';
-import h_img06 from 'images/Home/06-Carnation.jpg';
+// import h_img01 from 'images/Home/01-Mango.jpg';
+// import h_img02 from 'images/Home/02-Sapota.jpg';
+// import h_img03 from 'images/Home/03-Guava.jpg';
+// import h_img04 from 'images/Home/04-Coconut.jpg';
+// import h_img05 from 'images/Home/05-Water-Apple.jpg';
+// import h_img06 from 'images/Home/06-Carnation.jpg';
 
 import n_img01 from 'images/PageImg/01-Mango.jpg';
 import n_img02 from 'images/PageImg/02-Sapota.jpg';
@@ -34,8 +34,8 @@ import n_img26 from 'images/PageImg/26-Black-Pepper.jpg';
 import n_img27 from 'images/PageImg/27-Cardamom.jpg';
 import n_img28 from 'images/PageImg/28-Allspice.jpg';
 
-export const h_Imgs = [h_img01, h_img02, h_img03, h_img04, h_img05, h_img06];
-export const h_Captions = ['Mango', 'Sapota', 'Guava', 'Coconut', 'Water Apple', 'Carnation'];
+// export const h_Imgs = [h_img01, h_img02, h_img03, h_img04, h_img05, h_img06];
+// export const h_Captions = ['Mango', 'Sapota', 'Guava', 'Coconut', 'Water Apple', 'Carnation'];
 
 export const n_Imgs = [
   n_img01,

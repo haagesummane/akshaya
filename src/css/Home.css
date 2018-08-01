@@ -57,8 +57,8 @@
 .cb-slideshow,
 .cb-slideshow:after {
   list-style-type: none;
-  width: 50vw;
-  height: 30vw;
+  width: 60vw;
+  height: 25vw;
 
   margin: 0;
   padding: 0;
@@ -67,8 +67,8 @@
   content: '';
 }
 .cb-slideshow li span {
-  width: 50vw;
-  height: 30vw;
+  width: 60vw;
+  height: 25vw;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -90,7 +90,7 @@
   position: absolute;
   bottom: 30px;
   left: 0px;
-  width: 50vw;
+  width: 60vw;
   text-align: center;
   opacity: 0;
   color: #fff;

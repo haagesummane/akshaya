@@ -5,8 +5,8 @@ import logo from 'images/logo.png';
 const routes = [
   ['/', 'Home'],
   ['/about_us', 'About Us'],
+  ['/Plant_Nurseries', 'Plant Nursery'],
   ['/Other_Services', 'Other Services'],
-  ['/Plant_Nurseries', 'Plant Nurseries'],
   ['/contact_us', 'Contact Us'],
 ];
 

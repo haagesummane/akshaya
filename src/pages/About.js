@@ -5,32 +5,31 @@ class About extends Component {
   render() {
     return (
       <AppBody active={this.props.active}>
-        <div style={{ width: '80%', textAlign: 'center' }}>
+        <div className="contbcg" style={{ width: '80%', textAlign: 'center' }}>
           <h1>About Us</h1>
+          <hr />
           <article style={{ textAlign: 'justify' }}>
             <p>
-              Sasya Nursery is a full-fledged horticulture nursery spread over 4 acres at Islur
-              village 8 kilometres away from Sirsi town on Hubballi road. Basically, it is
-              horticultural nursery producing graft plants of all major fruit crops like Mango,
-              Sapota, Jackfruit, Guava, all lime species, Amla, Champaka etc. Sasya Nursery produces
-              around 10 lakh plants a year. Sasya is popular for high quality indoor and outdoor
-              garden ornamental plants too. Large-scale production of seedlings of Arecanut,
-              Coconut, Cardamom, Clove, Pepper and other plantation crops made Sasya Nursery a
-              favourite destination of farmers of the state.
+              Akshaya Agro Services was established in the year 2008 by a renowned horticulture
+              consultant DR. Ramachandra Hegde, M. Sc. (Horticulture). It started as Agri Clinic and
+              Agri Business Centre at Karadagere Kaval, 15 kilometres away from Tumakur of
+              Karnataka. Multiple activities are spread over 20 acres of farm here. DR. Ramachandra
+              Hegde had his post-graduation with gold medal from University of Agricultural
+              Sciences, Dharwad. He stays on the farm looking after all the activities of Akshaya
+              Agro Services. He has the rich experience of 23 years in the field of high-tech
+              horticulture like floriculture, vegetables, seed production etc. under poly house and
+              also the open field cultivation of pomegranate, banana, mango, drumstick and many more
+              crops.
             </p>
             <p>
-              Sasya Nursery is led by well-known horticulturist and landscape designer of Karnataka
-              state DR. Nagaraja Bhat. He is M. Sc. (Horticulture) graduate from University of
-              Agricultural Sciences, Dharwad. He took up nursery and landscape designing profession
-              at his native place Sirsi in the year 1995 itself. His varied expertise in the field
-              of horticulture benefitted variety of horticultural and gardening projects across the
-              state.
-            </p>
-            <p>
-              Apart from routine nursery and landscaping activities, DR. Nagaraj Bhat is a
-              well-known Horticulture Consultant guiding farmers across south India. He has an
-              expert in making Project Reports too. He is an approved Valuator for the Court of Law
-              and many commercial and cooperative banks.
+              The main activities of Akshaya Agro Services are
+              <ul>
+                <li> Plant Nursery of Fruits and Plantation crops </li>
+                <li> Horticulture Consultancy and Bankable Project Report Making</li>
+                <li> Green House and Shade Net House Construction </li>
+                <li> Training and Resource Person</li>
+                <li> Floriculture Under Poly House </li>
+              </ul>
             </p>
           </article>
         </div>

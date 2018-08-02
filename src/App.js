@@ -1,20 +1,8 @@
 import 'css/App.css';
 import ErrorBoundary from 'components/ErrorBoundary';
-import About from 'pages/About';
-import Contact from 'pages/Contact';
-import Home from 'pages/Home';
-import Nurseries from 'pages/Nurseries';
-import Services from 'pages/Services';
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-const routes = [
-  ['/', 'Home'],
-  ['/about_us', 'About Us'],
-  ['/Other_Services', 'Other Services'],
-  ['/Plant_Nurseries', 'Plant Nurseries'],
-  ['/contact_us', 'Contact Us'],
-];
-const Components = [Home, About, Services, Nurseries, Contact];
+import routes from 'components/Routes';
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +11,7 @@ class App extends Component {
   }
 
   render() {
+    var Components = routes.map(r => r[2]);
     return (
       <Router>
         <ErrorBoundary>

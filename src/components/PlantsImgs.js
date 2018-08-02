@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { n_Imgs, n_Captions } from 'components/Imgs';
+import { n_other_fruits, n_other_fruits_captions } from 'components/Imgs';
 
 class PlantsImgs extends Component {
   render() {
     return (
       <div className="container">
         <div className={'row'}>
-          {n_Imgs.map((img, k) => (
+          {n_other_fruits.map((img, k) => (
             <div key={k} className="col-6 col-sm-4 col-lg-3 imgcol text-white">
-              <img src={img} alt={n_Captions[k]} style={{ width: '100%' }} />
+              <img src={img} alt={n_other_fruits_captions[k]} style={{ width: '100%' }} />
 
               <h5
                 style={{
@@ -17,7 +17,7 @@ class PlantsImgs extends Component {
                 }}
                 className="mzpz text-center bw"
               >
-                <strong> {n_Captions[k]}</strong>
+                <strong> {n_other_fruits_captions[k]}</strong>
               </h5>
             </div>
           ))}

@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 
 import 'css/App.css';
 import logo from 'images/logo.png';
-const routes = [
-  ['/', 'Home'],
-  ['/about_us', 'About Us'],
-  ['/Plant_Nurseries', 'Plant Nursery'],
-  ['/Other_Services', 'Other Services'],
-  ['/contact_us', 'Contact Us'],
-];
+import routes from 'components/Routes';
 
 class Nav extends Component {
   render() {
@@ -37,7 +31,11 @@ class Nav extends Component {
             <ul className="navbar-nav ml-auto">
               {routes.map((r, i) => (
                 <li key={i} className="nav-item">
-                  <a className={' nav-link ' + ln_classes[i]} href={r[0]}>
+                  <a
+                    style={{ textTransform: 'uppercase' }}
+                    className={' nav-link ' + ln_classes[i]}
+                    href={r[0]}
+                  >
                     {r[1]}
                   </a>
                 </li>

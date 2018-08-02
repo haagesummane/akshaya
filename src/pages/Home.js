@@ -21,10 +21,10 @@ class Home extends Component {
             width: '80%',
             height: '100%',
             textAlign: 'center',
-            background: 'rgba(255,255,255,.8)',
             textTransform: 'uppercase',
             marginBottom: '20%',
           }}
+          className="contbcg"
         >
           <article style={{ textAlign: 'center', padding: '20px', width: '100%' }}>
             <h2>

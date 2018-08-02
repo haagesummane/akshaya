@@ -30,7 +30,7 @@ class Services extends Component {
     return (
       <AppBody active={this.props.active}>
         <div className="contbcg" style={{ width: '80%', textAlign: 'center' }}>
-          <h1>Services we offer</h1>
+          <h1>Other Services we offer</h1>
           <div className="container" style={{ textAlign: 'justify' }}>
             <div className="row">
               {contents.map((content, i) => (
@@ -42,10 +42,10 @@ class Services extends Component {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-lg-4 ">
+                      <div className="col-lg-2 ">
                         <img style={{ width: '100%' }} src={services_imgs[i]} alt={content[1]} />
                       </div>
-                      <div className="col-lg-8 ">{content[2]}</div>
+                      <div className="col-lg-10 ">{content[2]}</div>
                     </div>
                   </div>
                 </div>

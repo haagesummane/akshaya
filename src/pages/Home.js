@@ -21,7 +21,7 @@ class Home extends Component {
     ];
     // const captions = ['Consultancy', 'Floriculture', 'GreenHouse', 'PlantNursery', 'Training'];
     return (
-      <AppBody active={this.props.active}>
+      <AppBody active={this.props.active} noUpArrow={true}>
         <div
           style={{
             width: '80%',

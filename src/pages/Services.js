@@ -5,17 +5,41 @@ class Services extends Component {
   render() {
     return (
       <AppBody active={this.props.active}>
-        <div style={{ width: '80%', textAlign: 'center' }}>
+        <div className="contbcg" style={{ width: '80%', textAlign: 'center' }}>
           <h1>Services we offer</h1>
           <article style={{ textAlign: 'justify' }}>
-            <ul>
-              <li>Consultancy Service on Agricultural and Horticultural Crops and Enterprises</li>
-              <li>Landscape Designing, Establishment and Maintenance</li>
-              <li>Bankable Project Report Making on Agricultural and Horticultural Projects</li>
-              <li>
-                Agriculture Property Valuation of Court of Law, Banks and other Government works
-              </li>
-            </ul>
+            <hr />
+            <div>
+              <h4> Consultancy and Project Report:</h4>
+              DR. Ramachandra Hegde visits farmer’s field and guides them for greenhouse cultivation
+              of Capsicum, Carnation, Gerbera and other crops. Even he takes up consultancy work on
+              Turn-Key basis for high value horticulture crops, pomegranate, papaya, banana etc.
+              Akshaya Agro Services prepares project reports for any agriculture related issues
+              especially on horticulture projects which is essential for getting bank loan and
+              various subsidies.
+            </div>
+            <hr />
+            <div>
+              <h4>Greenhouse and Shade net House Construction: </h4>
+              Akshaya Agro Services has a well-equipped workshop on the farm and an experienced team
+              for the construction of poly house and shade net house. Akshaya Agro Services is
+              empanelled fabricator under horticulture department of Karnataka. Akshaya had already
+              constructed poly house and shade net house in more than 30 acres in nut & bolt system.{' '}
+            </div>
+            <hr />
+            <div>
+              <h4>Training and Resource Person:</h4>
+              DR. Hegde trains and guides the farmers who visit the farm on various aspects of
+              horticulture. DR. Ramachandra Hegde participates as a resource person as SMS (subject
+              matter specialist) in horticulture government departments and private organisations.{' '}
+            </div>
+            <hr />
+            <div>
+              <h4>Floriculture: </h4>
+              Akshaya Agro farm has 4 acres of greenhouse cultivating Carnation, Gerbera, Gypsophila
+              and Vegetables.
+            </div>
+            <hr />
           </article>
         </div>
       </AppBody>

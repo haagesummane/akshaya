@@ -6,6 +6,7 @@ class Contact extends Component {
     return (
       <AppBody active={this.props.active}>
         <div
+          className="contbcg"
           style={{
             width: '80%',
             padding: '5px',
@@ -38,13 +39,17 @@ class Contact extends Component {
               />
             </div>
             <div style={{ textAlign: 'left', flexDirection: 'column' }}>
-              <p>
-                Office: Giridath, Behind Nityananda Matha, Marathikoppa Road, Sirsi, Uttara Kannada
-              </p>
-              <p>581402, Karnataka, India Nursery: Islur, Hubballi Road, Sirsi, Uttara Kannada,</p>
-              <p>Karnataka, India Phone: +91 9449999791, +91 9448408620, +91 8384 237424 Contact</p>
-              <p>person: DR. Nagaraja D Bhat Email: gardennagaraj@gmail.com Website:</p>
-              <p>www.sasyanursery.com</p>
+              <address>
+                <p>
+                  Akshaya Agro Services At: Karadagere Kaval, Post: Chikkasarangi Ta & Dist: Tumakur
+                  572118, Karnataka, India Phone: +91 9980290951, +91 9108010034 Contact Person: DR.
+                  Ramachandra Hegde Email:{' '}
+                  <a href="mailto:akshayaagro69@gmail.com"> akshayaagro69@gmail.com </a>,<a href="mailto:akshayaagro69@gmail.com">
+                    {' '}
+                    rphegdeagri@gmail.com
+                  </a>
+                </p>
+              </address>
             </div>
           </article>
         </div>

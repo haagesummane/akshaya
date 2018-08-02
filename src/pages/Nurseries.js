@@ -1,6 +1,6 @@
 import AppBody from 'components/AppBody';
 import React, { Component } from 'react';
-import { n_fruits, n_fruits_captions } from 'components/Imgs';
+import { n_fruits } from 'components/Imgs';
 import PlantsImgs from 'components/PlantsImgs';
 class Plants extends Component {
   render() {
@@ -27,50 +27,49 @@ class Plants extends Component {
               plants of fruit and other plants and seedlings of various crop species of different
               varieties. It also buys many other plants from genuine sources of India.
             </p>
-            <p>
-              <h4> The major plants and varieties available at Akshaya Agro are</h4>
-              <div className="container-fluid mzpz">
-                <div className="row">
-                  {n_fruits.map((fimg, i) => (
-                    <div key={i} className="col-md-4 pd">
-                      <div className="card">
-                        <div className="container-fluid">
-                          <div className="row">
-                            <div
-                              className="col-md-6 rectdiv"
-                              style={{
-                                background: 'url(' + fimg + ') ',
-                                backgroundSize: 'cover',
-                              }}
-                            />
-                            <div className="col-md-6 ">
-                              <h3>{fruits_Text[i][0]}</h3>
-                              <ul className="smp">
-                                {fruits_Text[i][1].map((t, j) => <li key={j}>{t}</li>)}
-                              </ul>
-                            </div>
+
+            <h4> The major plants and varieties available at Akshaya Agro are</h4>
+            <div className="container-fluid mzpz">
+              <div className="row">
+                {n_fruits.map((fimg, i) => (
+                  <div key={i} className="col-md-4 pd">
+                    <div className="card">
+                      <div className="container-fluid">
+                        <div className="row">
+                          <div
+                            className="col-md-4 rectdiv bw"
+                            style={{
+                              background: 'url(' + fimg + ') ',
+                              backgroundSize: 'cover',
+                            }}
+                          />
+                          <div className="col-md-8 ">
+                            <h3>{fruits_Text[i][0]}</h3>
+                            <ul className="smp">
+                              {fruits_Text[i][1].map((t, j) => <li key={j}>{t}</li>)}
+                            </ul>
                           </div>
                         </div>
                       </div>
                     </div>
-                  ))}
-                </div>
-                <br />
-                <hr />
-                <br />
-                <ul>
-                  <li>
-                    <strong>Other Plants:</strong> Papaya, Banana, Anjoor (Fig), Heralekai,
-                    Seetaphal, Ramphal, Lakshmanphal, Water apple, Butter fruit, Litchi, Apple ber,
-                    Tamarind (sweet and sour), Starfruit
-                  </li>
-                  <li>
-                    <strong>Plantation Crops:</strong> Coconut: Hybrid (TxD), Tiptur Tall, COD, CGD
-                    Arecanut, Black Pepper, Allspice, Cardamom, Cashew nut etc.
-                  </li>
-                </ul>
+                  </div>
+                ))}
               </div>
-            </p>
+              <br />
+              <hr />
+              <br />
+              <ul>
+                <li>
+                  <h4>Other Plants:</h4> Papaya, Banana, Anjoor (Fig), Heralekai, Seetaphal,
+                  Ramphal, Lakshmanphal, Water apple, Butter fruit, Litchi, Apple ber, Tamarind
+                  (sweet and sour), Starfruit <hr />
+                </li>
+                <li>
+                  <h4>Plantation Crops:</h4> Coconut: Hybrid (TxD), Tiptur Tall, COD, CGD Arecanut,
+                  Black Pepper, Allspice, Cardamom, Cashew nut etc.<hr />
+                </li>
+              </ul>
+            </div>
           </article>
           <PlantsImgs />
         </div>

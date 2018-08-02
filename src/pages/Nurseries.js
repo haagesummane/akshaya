@@ -14,6 +14,7 @@ class Plants extends Component {
         'Lime',
         ['Balaji', 'Market Lime', 'Seedless Lime', 'Mosambi', 'Orange', 'Sweet Lime', 'Pomelo'],
       ],
+      ['Coconut', ['Hybrid (TxD)', 'Tiptur Tall', 'COD', 'CGD']],
     ];
     return (
       <AppBody active={this.props.active}>
@@ -32,22 +33,30 @@ class Plants extends Component {
             <div className="container-fluid mzpz">
               <div className="row">
                 {n_fruits.map((fimg, i) => (
-                  <div key={i} className="col-md-4 pd">
-                    <div className="card">
-                      <div className="container-fluid">
-                        <div className="row">
+                  <div key={i} className="col-md-6 col-lg-4 pd">
+                    <div className="card mzpz">
+                      <div className="container-fluid mzpz">
+                        <div className="row mzpz">
                           <div
-                            className="col-md-4 rectdiv bw"
+                            className="col-sm-5 rectdiv mzpz"
                             style={{
                               background: 'url(' + fimg + ') ',
                               backgroundSize: 'cover',
                             }}
                           />
-                          <div className="col-md-8 ">
-                            <h3>{fruits_Text[i][0]}</h3>
-                            <ul className="smp">
-                              {fruits_Text[i][1].map((t, j) => <li key={j}>{t}</li>)}
-                            </ul>
+                          <div className="col-sm-7 mzpz">
+                            <h4 className="th">{fruits_Text[i][0]}</h4>
+
+                            <div className="smp sifs mr-auto">
+                              {fruits_Text[i][1].map((t, j) => (
+                                <div className="mr-auto" key={j}>
+                                  <span>
+                                    &nbsp;<i style={{ fontSize: '70%' }} className="fa fa-circle" />
+                                    {t}
+                                  </span>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -58,17 +67,9 @@ class Plants extends Component {
               <br />
               <hr />
               <br />
-              <ul>
-                <li>
-                  <h4>Other Plants:</h4> Papaya, Banana, Anjoor (Fig), Heralekai, Seetaphal,
-                  Ramphal, Lakshmanphal, Water apple, Butter fruit, Litchi, Apple ber, Tamarind
-                  (sweet and sour), Starfruit <hr />
-                </li>
-                <li>
-                  <h4>Plantation Crops:</h4> Coconut: Hybrid (TxD), Tiptur Tall, COD, CGD Arecanut,
-                  Black Pepper, Allspice, Cardamom, Cashew nut etc.<hr />
-                </li>
-              </ul>
+              <h4>Other Plants:</h4> Papaya, Banana, Anjoor (Fig), Heralekai, Seetaphal, Ramphal,
+              Lakshmanphal, Water apple, Butter fruit, Litchi, Apple ber, Tamarind (sweet and sour),
+              Starfruit, Arecanut, Black Pepper, Allspice, Cardamom, Cashew nut etc.<hr />
             </div>
           </article>
           <PlantsImgs />

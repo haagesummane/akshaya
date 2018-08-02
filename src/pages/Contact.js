@@ -51,7 +51,7 @@ class Contact extends Component {
             >
               <address>
                 <p>
-                  Akshaya Agro Services At: Karadagere Kaval, Post: Chikkasarangi Ta & Dist: Tumakur
+                  Akshaya Agro Services At: Karadagere Kaval, Post: Chikkasarangi <br/>Ta & Dist: Tumakur
                   572118, Karnataka, India<br /> Phone: +91 9980290951, +91 9108010034 <br />Contact
                   Person: DR. Ramachandra Hegde <br />Email:&nbsp;
                   <a href="mailto:akshayaagro69@gmail.com"> akshayaagro69@gmail.com </a>

@@ -12,7 +12,13 @@ import logo from 'images/logo.png';
 
 class Home extends Component {
   render() {
-    const boxImages = [boxImg1, boxImg2, boxImg3, boxImg4, boxImg5];
+    const boxImages = [
+      [boxImg1, '/Plant_Nurseries'],
+      [boxImg2, '/Other_Services#greenhouse'],
+      [boxImg3, '/Other_Services#consultancy'],
+      [boxImg4, '/Other_Services#training'],
+      [boxImg5, '/Other_Services#floriculture'],
+    ];
     // const captions = ['Consultancy', 'Floriculture', 'GreenHouse', 'PlantNursery', 'Training'];
     return (
       <AppBody active={this.props.active}>
@@ -39,9 +45,18 @@ class Home extends Component {
             {boxImages.map((img, i) => (
               <div
                 key={i}
-                className={'col-2 serv_box mzpz' + (i % 2 !== 0 ? 'gray_box' : '')}
-                style={{ background: 'url(' + img + ')', backgroundSize: 'cover' }}
-              />
+                className={'col-2 serv_box mzpz'}
+                // style={{ background: 'url(' + img[0] + ')', backgroundSize: 'cover' }}
+              >
+                <a className="mzpz" href={img[1]}>
+                  <img
+                    style={{ width: '100%', height: '100%', padding: '0px', margin: '0px' }}
+                    className="mzpz"
+                    src={img[0]}
+                    alt="img"
+                  />
+                </a>
+              </div>
             ))}
             <div className="col-1">&nbsp;</div>
           </div>

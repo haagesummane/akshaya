@@ -9,7 +9,7 @@ class Services extends Component {
           <h1>Services we offer</h1>
           <article style={{ textAlign: 'justify' }}>
             <hr />
-            <div>
+            <div id="consultancy">
               <h4> Consultancy and Project Report:</h4>
               DR. Ramachandra Hegde visits farmer’s field and guides them for greenhouse cultivation
               of Capsicum, Carnation, Gerbera and other crops. Even he takes up consultancy work on
@@ -19,22 +19,22 @@ class Services extends Component {
               various subsidies.
             </div>
             <hr />
-            <div>
+            <div id="greenhouse">
               <h4>Greenhouse and Shade net House Construction: </h4>
               Akshaya Agro Services has a well-equipped workshop on the farm and an experienced team
               for the construction of poly house and shade net house. Akshaya Agro Services is
               empanelled fabricator under horticulture department of Karnataka. Akshaya had already
-              constructed poly house and shade net house in more than 30 acres in nut & bolt system.{' '}
+              constructed poly house and shade net house in more than 30 acres in nut & bolt system.
             </div>
             <hr />
-            <div>
+            <div id="training">
               <h4>Training and Resource Person:</h4>
               DR. Hegde trains and guides the farmers who visit the farm on various aspects of
               horticulture. DR. Ramachandra Hegde participates as a resource person as SMS (subject
-              matter specialist) in horticulture government departments and private organisations.{' '}
+              matter specialist) in horticulture government departments and private organisations.
             </div>
             <hr />
-            <div>
+            <div id="floriculture">
               <h4>Floriculture: </h4>
               Akshaya Agro farm has 4 acres of greenhouse cultivating Carnation, Gerbera, Gypsophila
               and Vegetables.

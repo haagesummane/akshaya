@@ -34,10 +34,15 @@ import n_img26 from 'images/PageImg/26-Black-Pepper.jpg';
 import n_img27 from 'images/PageImg/27-Cardamom.jpg';
 import n_img28 from 'images/PageImg/28-Allspice.jpg';
 
+import s_img1 from 'images/services/green_house.jpg';
+import s_img2 from 'images/services/consultancy.jpg';
+import s_img3 from 'images/services/training.jpg';
+import s_img4 from 'images/services/floriculture.jpg';
+
 // export const h_Imgs = [h_img01, h_img02, h_img03, h_img04, h_img05, h_img06];
 // export const h_Captions = ['Mango', 'Sapota', 'Guava', 'Coconut', 'Water Apple', 'Carnation'];
-
-export const n_fruits = [n_img01, n_img02, n_img03, n_img04, n_img05, n_img06,n_img07];
+export const services_imgs = [s_img1, s_img2, s_img3, s_img4];
+export const n_fruits = [n_img01, n_img02, n_img03, n_img04, n_img05, n_img06, n_img07];
 export const n_other_fruits = [
   n_img08,
   n_img09,
@@ -61,7 +66,15 @@ export const n_other_fruits = [
   n_img27,
   n_img28,
 ];
-export const n_fruits_captions = ['Mango', 'Sapota', 'Guava', 'Jamun', 'Jackfruit', 'Lime','Coconut'];
+export const n_fruits_captions = [
+  'Mango',
+  'Sapota',
+  'Guava',
+  'Jamun',
+  'Jackfruit',
+  'Lime',
+  'Coconut',
+];
 export const n_other_fruits_captions = [
   'Banana',
   'Butter fruit',

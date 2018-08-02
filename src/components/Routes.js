@@ -6,7 +6,7 @@ import Services from 'pages/Services';
 const routes = [
   ['/', 'Home', Home],
   ['/about_us', 'About Us', About],
-  ['/Plant_Nurseries', 'Plant Nurseries', Nurseries],
+  ['/Plant_Nurseries', 'Plant Nursery', Nurseries],
   ['/Other_Services', 'Other Services', Services],
   ['/contact_us', 'Contact Us', Contact],
 ];

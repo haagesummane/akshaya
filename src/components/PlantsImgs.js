@@ -4,10 +4,10 @@ import { n_other_fruits, n_other_fruits_captions } from 'components/Imgs';
 class PlantsImgs extends Component {
   render() {
     return (
-      <div className="container">
-        <div className={'row'}>
+      <div className="container-fluid mzpz">
+        <div className="row mzpz">
           {n_other_fruits.map((img, k) => (
-            <div key={k} className="col-6 col-sm-4 col-lg-3 imgcol text-white">
+            <div key={k} className="col-6 col-sm-3 col-lg-2 imgcol text-white">
               <img src={img} alt={n_other_fruits_captions[k]} style={{ width: '100%' }} />
 
               <h5

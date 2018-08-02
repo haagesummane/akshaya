@@ -40,18 +40,18 @@ class Home extends Component {
           </article>
         </div>
         <div className="container-fluid homeservices">
-          <div className="row rd mzpz">
+          <div className="row">
             <div className="col-1">&nbsp;</div>
             {boxImages.map((img, i) => (
               <div
                 key={i}
-                className={'col-2 serv_box mzpz'}
+                className="col-2 serv_box mzpz"
                 // style={{ background: 'url(' + img[0] + ')', backgroundSize: 'cover' }}
               >
                 <a className="mzpz" href={img[1]}>
                   <img
-                    style={{ width: '100%', height: '100%', padding: '0px', margin: '0px' }}
                     className="mzpz"
+                    style={{ width: '100%', height: '100%' }}
                     src={img[0]}
                     alt="img"
                   />

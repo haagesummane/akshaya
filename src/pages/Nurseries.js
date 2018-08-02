@@ -12,24 +12,27 @@ class Plants extends Component {
       ['Jackfruit', ['Yellow', 'Taiwan Red']],
       [
         'Lime',
-        ['Balaji', 'Market Lime', 'Seedless Lime', 'Mosambi', 'Orange', 'Sweet Lime', 'Pomelo'],
+        ['Balaji', 'Pomelo', 'Orange', 'Market Lime', 'Seedless Lime', 'Mosambi', 'Sweet Lime'],
       ],
       ['Coconut', ['Hybrid (TxD)', 'Tiptur Tall', 'COD', 'CGD']],
     ];
     return (
       <AppBody active={this.props.active}>
         <div className="contbcg" style={{ width: '80%', textAlign: 'center' }}>
-          <h1>Plant Nurseries</h1>
+          <h1>Plant Nursery</h1>
           <hr />
           <article style={{ textAlign: 'justify' }}>
             <p>
-              Akshaya Agro Services is the single place in Tumakur where farmers get more than 30
+              Akshaya Agro Services is the single place in Tumkur where farmers get more than 30
               types of plants of fruit and plantation crops. It produces large number of graft
               plants of fruit and other plants and seedlings of various crop species of different
               varieties. It also buys many other plants from genuine sources of India.
             </p>
-
-            <h4> The major plants and varieties available at Akshaya Agro are</h4>
+            <hr />
+            <h4 style={{ width: '100%', textAlign: 'center' }}>
+              {' '}
+              The major plants and varieties available at Akshaya Agro
+            </h4>
             <div className="container-fluid mzpz">
               <div className="row">
                 {n_fruits.map((fimg, i) => (
@@ -67,12 +70,10 @@ class Plants extends Component {
               <br />
               <hr />
               <br />
-              <h4>Other Plants:</h4> Papaya, Banana, Anjoor (Fig), Heralekai, Seetaphal, Ramphal,
-              Lakshmanphal, Water apple, Butter fruit, Litchi, Apple ber, Tamarind (sweet and sour),
-              Starfruit, Arecanut, Black Pepper, Allspice, Cardamom, Cashew nut etc.<hr />
+              <h4 style={{ width: '100%', textAlign: 'center' }}>Other Plants</h4>
+              <PlantsImgs />
             </div>
           </article>
-          <PlantsImgs />
         </div>
       </AppBody>
     );
